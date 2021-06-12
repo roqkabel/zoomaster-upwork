@@ -20,6 +20,35 @@ body, main {
   color: #006EE9;
   transition: all 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
 }
+.btn-outline-primary:hover {
+  background: none;
+  color: #006EE9;
+}
+
+.slick-arrow {
+  width: 70px !important;
+}
+
+.slick-responsive-carousel {
+  position: relative;
+}
+.slick-responsive-carousel .prev {
+  display: block;
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  transform: translateY(-20%);
+  left: -40px;
+}
+.slick-responsive-carousel .next {
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-20%);
+  z-index: 1000;
+  right: -25px;
+}
 
 .col-half-offset {
   margin-left: 4.166666667%;
@@ -426,7 +455,7 @@ body, main {
     min-height: 100%;
     background-repeat: no-repeat;
     background-size: 48rem !important;
-    background-position-x: -25rem;
+    background-position-x: -22rem;
     position: relative;
     overflow-x: hidden;
   }
