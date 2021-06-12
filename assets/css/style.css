@@ -428,6 +428,7 @@ body, main {
     background-size: 48rem !important;
     background-position-x: -25rem;
     position: relative;
+    overflow-x: hidden;
   }
   #hero .hero-content {
     text-align: center;
