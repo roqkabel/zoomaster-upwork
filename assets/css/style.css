@@ -44,10 +44,10 @@ body, main {
 }
 
 #hero {
-  background-image: url("/assets/img/hero-bg.png");
+  background-image: url("/assets/img/bg+shadow.png");
   min-height: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   position: relative;
   overflow-x: hidden;
   margin-top: 4rem;
@@ -72,6 +72,7 @@ body, main {
   position: absolute;
   right: -0.2rem;
   padding-top: 3rem;
+  display: none;
 }
 #hero .hero-short {
   display: flex;
@@ -852,7 +853,7 @@ body, main {
     margin-top: 4rem;
   }
 }
-@media screen and (width: 1024px) {
+@media screen and (max-width: 1279px) {
   #hero {
     background-image: url("/assets/img/hero-bg.png");
     min-height: 100%;
