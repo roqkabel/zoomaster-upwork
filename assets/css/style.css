@@ -195,13 +195,14 @@ body, main {
   position: relative;
   width: fit-content;
   padding-top: 2rem;
+  margin-right: 1rem;
   border: none;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem #e7f6f9 !important;
   margin-bottom: 2rem;
 }
 #support-community .support-areas .area-card img {
-  top: -120px;
+  top: -130px;
   margin: auto;
   width: 75%;
   position: absolute;
@@ -421,20 +422,17 @@ body, main {
   }
 
   #hero {
-    background-image: url("/assets/img/hero-bg.png");
+    background-image: url("/assets/img/bg+shadow.png");
     min-height: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 48rem !important;
+    background-position-x: -25rem;
     position: relative;
-    overflow-x: hidden;
-    background-position-y: -615px;
-    background-position-x: 71%;
   }
   #hero .hero-content {
     text-align: center;
     padding: 2rem;
-    padding-top: 30rem;
+    padding-top: 25rem !important;
     margin-bottom: 0rem;
     padding-bottom: 2rem;
   }
@@ -760,6 +758,9 @@ body, main {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+  #team-section .col-lg-4 {
+    margin-bottom: 6rem;
+  }
   #team-section .team-card {
     text-align: center;
     position: relative;
@@ -853,9 +854,9 @@ body, main {
     margin-top: 4rem;
   }
 }
-@media screen and (max-width: 1279px) {
+@media screen and (min-width: 800px) and (max-width: 1279px) {
   #hero {
-    background-image: url("/assets/img/hero-bg.png");
+    background-image: url("/assets/img/bg+shadow.png");
     min-height: 100%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -864,8 +865,8 @@ body, main {
     margin-top: 4rem;
   }
   #hero .hero-content {
-    padding-top: 10rem;
-    margin-bottom: 5rem;
+    padding-top: 15rem;
+    margin-bottom: 10rem;
   }
   #hero .hero-content h2 {
     font-size: 1.2rem;
@@ -890,7 +891,7 @@ body, main {
   #hero .hero-short {
     display: flex;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
   }
   #hero .hero-short .text {
     font-size: 1rem;
@@ -1015,7 +1016,7 @@ body, main {
     margin-bottom: 2rem;
   }
   #support-community .support-areas .area-card img {
-    top: -100px;
+    top: -133px;
     margin: auto;
     width: 75%;
     position: absolute;
@@ -1037,7 +1038,7 @@ body, main {
     text-align: center;
   }
   #support-community .support-areas .support-cta p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #5C5C5C;
   }
 
@@ -1070,7 +1071,7 @@ body, main {
     margin-bottom: 3rem;
   }
   #our-mission #step-paths {
-    width: 88%;
+    width: 77%;
     margin: auto;
     margin-top: -4rem;
     margin-bottom: 4rem;

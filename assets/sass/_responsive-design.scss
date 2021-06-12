@@ -1,25 +1,27 @@
+// MOBILE DESIGN
 @media only screen and (max-width: 800px) {
   .col-half-offset {
     margin-left: 0%;
   }
   // Hero section
   #hero {
-    background-image: url("/assets/img/hero-bg.png");
+    background-image: url("/assets/img/bg+shadow.png");
     min-height: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 48rem !important;
+    background-position-x: -25rem;
+    // background-position: center;
     position: relative;
-    overflow-x: hidden;
-    background-position-y: -615px;
-    background-position-x: 71%;
+    // overflow-x: hidden;
+    // background-position-y: -615px;
+    // background-position-x: 71%;
 
     // margin-top: 4rem;
 
     .hero-content {
       text-align: center;
       padding: 2rem;
-      padding-top: 30rem;
+      padding-top: 25rem !important;
       margin-bottom: 0rem;
       padding-bottom: 2rem;
       h2 {
@@ -391,6 +393,9 @@
     padding-right: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    .col-lg-4{
+        margin-bottom: 6rem;
+    }
     .team-card {
       text-align: center;
       position: relative;
@@ -498,11 +503,11 @@
 
 // FOR 1024 screen size
 
-@media screen and (max-width: 1279px){
+@media screen and (min-width: 800px) and (max-width: 1279px){
   // Hero section
 
 #hero{
-    background-image: url('/assets/img/hero-bg.png');
+    background-image: url('/assets/img/bg+shadow.png');
     min-height: 100%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -511,8 +516,8 @@
     margin-top: 4rem;
 
     .hero-content{
-       padding-top: 10rem;
-       margin-bottom: 5rem;
+       padding-top: 15rem;
+       margin-bottom: 10rem;
        h2{
            font-size: 1.2rem;
            color: $primary-color;
@@ -539,7 +544,7 @@
     .hero-short{
         display: flex;
         align-items: center;
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
         .text{
             font-size: 1rem;
             color: $gray-60;
@@ -687,7 +692,7 @@
             box-shadow: 0 .5rem 1rem darken($blue-5, $amount: 2)  !important;
             margin-bottom: 2rem;
             img{
-                top: -100px;
+                top: -133px;
                 margin: auto;
                 width: 75%;
                 position: absolute;
@@ -710,7 +715,7 @@
         .support-cta{
             text-align: center;
             p{
-                font-size: 0.8rem;
+                font-size: 1rem;
                 color: $gray-80;
             }
         }
@@ -755,7 +760,7 @@
     // STEPS
 
     #step-paths{
-        width: 88%;
+        width: 77%;
         margin: auto;
         margin-top: -4rem;
         margin-bottom: 4rem;
