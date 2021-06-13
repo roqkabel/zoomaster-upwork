@@ -77,7 +77,7 @@ main {
 	background-image: url("../img/bg+shadow.png");
 	min-height: 100%;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	position: relative;
 	overflow-x: hidden;
 	margin-top: 4rem;
